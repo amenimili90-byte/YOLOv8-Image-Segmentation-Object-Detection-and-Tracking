@@ -1,0 +1,2 @@
+device,imgsz,runs,avg_latency_ms,std_latency_ms,fps
+CPU,640,20,157.74,11.64,6.34

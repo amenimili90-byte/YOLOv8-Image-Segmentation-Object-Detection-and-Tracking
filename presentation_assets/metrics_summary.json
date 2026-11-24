@@ -1,0 +1,311 @@
+{
+  "model": "best.pt",
+  "data": "ml_pipeline\\dataset\\data.yaml",
+  "imgsz": 640,
+  "global_metrics": {
+    "box_precision": 0.7155,
+    "box_recall": 0.6626,
+    "box_mAP50": 0.7754,
+    "box_mAP50_95": 0.5993
+  },
+  "speed_benchmark": [
+    {
+      "device": "CPU",
+      "imgsz": 640,
+      "runs": 20,
+      "avg_latency_ms": 157.74,
+      "std_latency_ms": 11.64,
+      "fps": 6.34
+    }
+  ],
+  "per_class_metrics": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "precision": 0.85,
+      "recall": 0.5893,
+      "mAP50": 0.7483,
+      "mAP50_95": 0.4922
+    },
+    {
+      "class_id": 2,
+      "class_name": "car",
+      "precision": 0.6722,
+      "recall": 0.1871,
+      "mAP50": 0.3376,
+      "mAP50_95": 0.1994
+    },
+    {
+      "class_id": 3,
+      "class_name": "motorcycle",
+      "precision": 0.8763,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.7455
+    },
+    {
+      "class_id": 6,
+      "class_name": "train",
+      "precision": 0.3879,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.995
+    },
+    {
+      "class_id": 7,
+      "class_name": "truck",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.1095,
+      "mAP50_95": 0.0562
+    },
+    {
+      "class_id": 15,
+      "class_name": "cat",
+      "precision": 1.0,
+      "recall": 0.973,
+      "mAP50": 0.995,
+      "mAP50_95": 0.7213
+    },
+    {
+      "class_id": 16,
+      "class_name": "dog",
+      "precision": 0.4615,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8955
+    },
+    {
+      "class_id": 20,
+      "class_name": "elephant",
+      "precision": 0.8119,
+      "recall": 0.8333,
+      "mAP50": 0.8263,
+      "mAP50_95": 0.6686
+    },
+    {
+      "class_id": 21,
+      "class_name": "bear",
+      "precision": 0.6061,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.995
+    },
+    {
+      "class_id": 22,
+      "class_name": "zebra",
+      "precision": 0.8231,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.962
+    },
+    {
+      "class_id": 26,
+      "class_name": "handbag",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.3317,
+      "mAP50_95": 0.199
+    },
+    {
+      "class_id": 29,
+      "class_name": "frisbee",
+      "precision": 0.492,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.796
+    },
+    {
+      "class_id": 32,
+      "class_name": "sports ball",
+      "precision": 1.0,
+      "recall": 0.5096,
+      "mAP50": 0.745,
+      "mAP50_95": 0.471
+    },
+    {
+      "class_id": 33,
+      "class_name": "kite",
+      "precision": 0.7668,
+      "recall": 0.6667,
+      "mAP50": 0.678,
+      "mAP50_95": 0.2423
+    },
+    {
+      "class_id": 34,
+      "class_name": "baseball bat",
+      "precision": 0.8199,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.597
+    },
+    {
+      "class_id": 35,
+      "class_name": "baseball glove",
+      "precision": 0.6742,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.596
+    },
+    {
+      "class_id": 38,
+      "class_name": "tennis racket",
+      "precision": 0.564,
+      "recall": 0.6919,
+      "mAP50": 0.8283,
+      "mAP50_95": 0.5627
+    },
+    {
+      "class_id": 41,
+      "class_name": "cup",
+      "precision": 0.7976,
+      "recall": 0.5714,
+      "mAP50": 0.8367,
+      "mAP50_95": 0.5573
+    },
+    {
+      "class_id": 42,
+      "class_name": "fork",
+      "precision": 0.6345,
+      "recall": 0.5,
+      "mAP50": 0.495,
+      "mAP50_95": 0.495
+    },
+    {
+      "class_id": 43,
+      "class_name": "knife",
+      "precision": 0.0,
+      "recall": 0.0,
+      "mAP50": 0.4975,
+      "mAP50_95": 0.2482
+    },
+    {
+      "class_id": 44,
+      "class_name": "spoon",
+      "precision": 0.6023,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.4975
+    },
+    {
+      "class_id": 50,
+      "class_name": "broccoli",
+      "precision": 0.3239,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8955
+    },
+    {
+      "class_id": 53,
+      "class_name": "pizza",
+      "precision": 0.4963,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8455
+    },
+    {
+      "class_id": 55,
+      "class_name": "cake",
+      "precision": 0.5784,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8955
+    },
+    {
+      "class_id": 56,
+      "class_name": "chair",
+      "precision": 0.6472,
+      "recall": 0.4708,
+      "mAP50": 0.4867,
+      "mAP50_95": 0.1727
+    },
+    {
+      "class_id": 57,
+      "class_name": "couch",
+      "precision": 0.8657,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.796
+    },
+    {
+      "class_id": 58,
+      "class_name": "potted plant",
+      "precision": 0.9928,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8455
+    },
+    {
+      "class_id": 60,
+      "class_name": "dining table",
+      "precision": 0.4832,
+      "recall": 0.75,
+      "mAP50": 0.645,
+      "mAP50_95": 0.455
+    },
+    {
+      "class_id": 61,
+      "class_name": "toilet",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.8955
+    },
+    {
+      "class_id": 63,
+      "class_name": "laptop",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.6617,
+      "mAP50_95": 0.5293
+    },
+    {
+      "class_id": 65,
+      "class_name": "remote",
+      "precision": 0.6397,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.995
+    },
+    {
+      "class_id": 67,
+      "class_name": "cell phone",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.2475,
+      "mAP50_95": 0.1732
+    },
+    {
+      "class_id": 71,
+      "class_name": "sink",
+      "precision": 0.6708,
+      "recall": 0.5,
+      "mAP50": 0.495,
+      "mAP50_95": 0.396
+    },
+    {
+      "class_id": 75,
+      "class_name": "vase",
+      "precision": 0.5798,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50_95": 0.995
+    },
+    {
+      "class_id": 77,
+      "class_name": "teddy bear",
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.206,
+      "mAP50_95": 0.1167
+    },
+    {
+      "class_id": 79,
+      "class_name": "toothbrush",
+      "precision": 0.6383,
+      "recall": 0.6099,
+      "mAP50": 0.83,
+      "mAP50_95": 0.5765
+    }
+  ]
+}

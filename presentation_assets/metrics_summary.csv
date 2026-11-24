@@ -1,0 +1,2 @@
+box_precision,box_recall,box_mAP50,box_mAP50_95
+0.7155,0.6626,0.7754,0.5993
